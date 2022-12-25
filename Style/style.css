@@ -1,0 +1,31 @@
+body{
+    background-color:#EAFDFC;
+}
+.intro{
+    border-top: dotted rgb(242, 163, 250) 1px;
+    border-spacing: 10;
+    padding: 2%;
+    text-align: center;
+}
+.nav{
+    text-align: end;
+    font-size: large;
+}
+.nav a{
+    margin: 3%;
+    text-decoration: none;
+}
+.customise{
+    text-align: center;
+    font-style: italic;
+}
+form{
+    color:darkorange;
+    font-style: normal;
+    background-color: rgba(0,255,255,0.3);
+    line-height: 250%;
+}
+#cart{
+    text-decoration: none;
+    border: solid 5px gold;
+}

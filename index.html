@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order customisable Burgers</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="Style/style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="">Menu</a>
+            <a href="cart.html">Cart</a>
+            <a href="outlets.html">Our Outlets</a>
+            <a href="mailto:harshiitx@gmail.com">Contact us</a>
+        </div>
+    </nav>
+
+    <div class="intro">
+        <img width="40%" src="images/Burger2.png" alt="Burger Image">
+        <h1> Make and Order Burgirs </h1>
+        <p>you can throw the menu book away and customise to your heart's content.</p>
+    </div>
+
+    <div class="customise">
+        <h2>customise your burger-</h2>
+        <form action="post">
+            <label for="bun">Choose your Bun-</label>
+            <select name="bun" id="bun">
+                <option value="BRIOCHE">BRIOCHE</option>
+                <option value="WHOLE WHEAT">WHOLE WHEAT</option>
+                <option value="GLUTEN FREE BUN">GLUTEN FREE BUN</option>
+            </select><br>
+            <label for="cheese">Select your Cheese-</label>
+            <select name="cheese" id="cheese">
+                <option value="CHEDDAR">CHEDDAR</option>
+                <option value="SWISS">SWISS</option>
+                <option value="PEPPER JACK">PEPPER JACK</option>
+            </select><br>
+            <label for="protein">Pick your Protein your Bun-</label>
+            <select name="protein" id="protein">
+                <option value="VEGAN VEGGIE">VEGAN VEGGIE</option>
+                <option value="VEGAN ALOO TIKKI">VEGAN ALOO TIKKI</option>
+                <option value="CHICKEN BREAST">CHICKEN BREAST</option>
+                <option value="Egg White">Egg White</option>
+            </select><br>
+            <label for="sauce">Choose your Sauce-</label>
+            <select name="sauce" id="sauce">
+                <option value="MUSTARD">MUSTARD</option>
+                <option value="OLIVE OIL & VINEGAR">OLIVE OIL & VINEGAR</option>
+                <option value="SRIRACHA AIOLI">SRIRACHA AIOLI</option>
+                <option value="SWEET SRIRACHA">SWEET SRIRACHA</option>
+                <option value="BUTTERMILK RANCH">BUTTERMILK RANCH</option>
+                <option value="DIJON BALSAMIC">DIJON BALSAMIC</option>
+                <option value="KETCHUP ">KETCHUP </option>
+                <option value="MAYO">MAYO</option>
+            </select><br>
+            <label for="topping">Select your Topping-</label>
+            <select name="topping" id="topping">
+                <option value="MIXED GREENS">MIXED GREENS</option>
+                <option value="TOMATOES">TOMATOES</option>
+                <option value="PEPPERONCINIS">PEPPERONCINIS</option>
+                <option value="JALAPENOS">JALAPENOS</option>
+                <option value="SAUTÉED RED PEPPERS">SAUTÉED RED PEPPERS</option>
+                <option value="RED ONIONS">RED ONIONS</option>
+            </select><br>
+            <label for="extra"><h3>Any extras that you would like to add?</h3></label>
+            <select name="extra" id="extra">
+                <option value="none">None</option>
+                <option value="FRENCH FRIES">FRENCH FRIES @ Rs70</option>
+                <option value="SWEET POTATO FRIES">SWEET POTATO FRIES @ Rs 60</option>
+                <option value="COCA COLA">COCA COLA @ Rs 55</option>
+            </select><br>
+            <input type="submit" value="Add selected items to cart">
+        </form>
+        
+        <h3><a id="cart" href="cart.html"> Go to Cart</a></h3>
+    </div>
+    <div>
+        <h3>Available Options-</h3>
+        
+    </div>
+
+
+</body>
+
+</html>
